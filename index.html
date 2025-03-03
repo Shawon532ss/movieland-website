@@ -277,6 +277,21 @@
         font-size: 1rem;
       }
 
+      /* Ad Banner */
+      .ad-banner {
+        text-align: center;
+        margin: 20px auto;
+        max-width: 728px;
+      }
+
+      /* Responsive Styling */
+      @media (max-width: 768px) {
+        .ad-banner iframe {
+          width: 100%;
+          height: auto;
+        }
+      }
+
       /* Responsive Styles */
       @media (max-width: 768px) {
         nav .nav-links {
@@ -320,17 +335,13 @@
       <p>Watch the latest movies online for free!</p>
     </header>
 
-    <!--Banner ad 738x90-->
-    <script type="text/javascript">
-      atOptions = {
-        'key' : 'f7f34c88b132e222f93d228fd6f5d66d',
-        'format' : 'iframe',
-        'height' : 90,
-        'width' : 728,
-        'params' : {}
-      };
-    </script>
-    <script type="text/javascript" src="//learningcontractionpolling.com/f7f34c88b132e222f93d228fd6f5d66d/invoke.js"></script>
+    <!--Native Banner-->
+    <script
+      async="async"
+      data-cfasync="false"
+      src="//learningcontractionpolling.com/d2f6f86feb02607ecb4b76bed7cc3b3e/invoke.js"
+    ></script>
+    <div id="container-d2f6f86feb02607ecb4b76bed7cc3b3e"></div>
 
     <!-- Navigation -->
     <nav>
@@ -352,6 +363,23 @@
     <div class="search-bar">
       <input type="text" id="searchInput" placeholder="Search for movies..." />
       <button onclick="searchMovies()">Search</button>
+    </div>
+
+    <!-- Ad Banner -->
+    <div class="ad-banner">
+      <script type="text/javascript">
+        atOptions = {
+          key: "f7f34c88b132e222f93d228fd6f5d66d",
+          format: "iframe",
+          height: 90,
+          width: 728,
+          params: {},
+        };
+      </script>
+      <script
+        type="text/javascript"
+        src="//learningcontractionpolling.com/f7f34c88b132e222f93d228fd6f5d66d/invoke.js"
+      ></script>
     </div>
 
     <!-- Hero Section -->
